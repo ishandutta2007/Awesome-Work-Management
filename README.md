@@ -1,259 +1,110 @@
-# Awesome-Work-Management
-
-## Top Work Management Ecosystem
-
-
-
-**Curated List of SaaS Products & Open-Source GitHub Projects**  
-
-*Focused on Task Collaboration, Project Planning & Team Productivity*  
-
-**Last updated: October 2026**
-
-
-
-This repository tracks notable **SaaS platforms** and **open-source projects** for **Work Management**. These tools help teams plan projects, assign tasks, track progress, and collaborate across departments — from simple kanban boards to full enterprise portfolio management.
-
-
-
-**Examples** include Microsoft Planner, Monday.com, Asana, Trello, ClickUp, Smartsheet, Wrike, Airtable, Notion, and Jira Work Management (the category leaders).
-
-
-
-**Open-source emphasis**: Work management is one of the strongest open-source domains. **OpenProject**, **Plane**, **Focalboard**, **Vikunja**, and **Wekan** power project teams worldwide, with **OpenProject** recently adding XWiki integration and Jira migration tooling to position itself as a full proprietary replacement . This section is heavily expanded.
-
-
-
-Contributions welcome! Open a PR to add/update entries. Keep descriptions factual and link to official sites.
-
-
-
-## Table of Contents
-
-- [SaaS/Hosted Platforms](#saas-hosted-platforms)
-
-- [Open-Source GitHub Projects](#open-source-github-projects)
-
-- [How to Contribute](#how-to-contribute)
-
-- [Disclaimer](#disclaimer)
-
-
-
-## SaaS/Hosted Platforms
-
-
-
-- **[Microsoft Planner](https://www.microsoft.com/microsoft-365/business/task-management-software)**  
-
-  Task management integrated with Microsoft 365 and Teams. Simple kanban boards, task assignments, and progress tracking with deep Outlook and SharePoint integration.
-
-
-
-- **[Monday.com](https://monday.com/)**  
-
-  Work OS platform with customizable boards, automations, and dashboards. Popular for marketing, operations, and project teams seeking visual workflow management.
-
-
-
-- **[Asana](https://asana.com/)**  
-
-  Project management platform with list, board, timeline, and calendar views. Strong for cross-functional collaboration and goal tracking (OKRs).
-
-
-
-- **[Trello](https://trello.com/)**  
-
-  Kanban-based task management with simple cards and lists. Free tier generous; popular for personal and small-team organization.
-
-
-
-- **[ClickUp](https://clickup.com/)**  
-
-  All-in-one productivity platform combining tasks, docs, goals, chat, and whiteboards. Aggressive free tier and feature breadth.
-
-
-
-- **[Smartsheet](https://www.smartsheet.com/)**  
-
-  Spreadsheet-based work management with Gantt charts, automations, and enterprise governance. Strong for PMO and operations teams.
-
-
-
-- **[Wrike](https://www.wrike.com/)**  
-
-  Enterprise work management with project portfolios, resource management, and proofing. Strong for marketing and professional services.
-
-
-
-- **[Airtable](https://airtable.com/)**  
-
-  Flexible database-spreadsheet hybrid for building custom workflows and tracking. Popular for content calendars, CRM, and project trackers.
-
-
-
-- **[Notion](https://www.notion.so/)**  
-
-  All-in-one workspace combining notes, databases, kanban, and wikis. Popular for startups and small teams.
-
-
-
-- **[Jira Work Management](https://www.atlassian.com/software/jira/work-management)**  
-
-  Atlassian's business team offering with list, board, timeline, and calendar views. Bridges the gap between Jira Software and general work management.
-
-
-
-## Open-Source GitHub Projects
-
-
-
-- **[OpenProject](https://github.com/opf/openproject)**  
-
-  The leading open-source project management suite with 14.7K+ GitHub stars and AGPLv3 license . Full-featured with tasks (Work Packages), Gantt charts, Agile boards (Scrum/Kanban), meetings, time tracking, cost management, and documentation . Recent 17.6/17.9 releases add **XWiki integration** (wiki tab in Work Packages), **sprint goals**, **backlog buckets**, **task creation from documents**, deadline warnings in Community Edition, and **parallel Jira migration** with resumable imports . Docker deployment recommended; enterprise edition adds support and advanced features .
-
-
-
-- **[Plane](https://github.com/makeplane/plane)**  
-
-  Modern open-source alternative to Jira, Linear, Monday, and ClickUp with 47.8K+ GitHub stars and AGPLv3 license . AI-native project management with Work Items (tasks, bugs, features), Cycles (sprints with burn-down charts), Modules (grouping related work), Pages (wiki with AI), and five view layouts (List, Board, Spreadsheet, Gantt, Calendar) . Integrations with GitHub, GitLab, Slack, Sentry; importers from Jira, Linear, Asana, ClickUp, Monday . Deployable via Docker AIO container on Railway or self-hosted .
-
-
-
-- **[Focalboard](https://github.com/mattermost-community/focalboard)**  
-
-  Open-source, self-hosted alternative to Trello, Notion, and Asana with MIT/AGPL/Apache licenses . Kanban boards, table views, and gallery views for individuals and teams. Maintained by Mattermost community .
-
-
-
-- **[Wekan](https://github.com/wekan/wekan)**  
-
-  Open-source Trello-like kanban board with MIT license . Real-time collaboration, swimlanes, and card dependencies.
-
-
-
-- **[Leantime](https://github.com/Leantime/leantime)**  
-
-  PHP-based project management designed for non-project managers with accessibility features for ADHD, autism, and dyslexia, 10.2K GitHub stars and AGPL-3.0 license . Kanban, Gantt, calendar, and table views with goal tracking, wikis, and Slack/Mattermost integrations . LDAP/OIDC authentication, S3 storage, REST API, 20+ languages .
-
-
-
-- **[Vikunja](https://github.com/go-vikunja/vikunja)**  
-
-  Open-source task management with hierarchical structure, smart recurring tasks, and Telegram integration . To-do app for organizing life and work with list/table/gantt views.
-
-
-
-- **[Kanboard](https://github.com/kanboard/kanboard)**  
-
-  Simple visual task board with MIT license . Minimalist kanban with drag-and-drop, swimlanes, and plugin ecosystem.
-
-
-
-- **[4ga Boards](https://github.com/RARgames/4gaBoards)**  
-
-  Straightforward real-time kanban boards with elegant dark mode, collapsible todo lists, and multitasking tools, MIT license . Node.js/Docker/K8S deployment.
-
-
-
-- **[Orangescrum Community Edition](https://github.com/Orangescrum/opensource-community-edition)**  
-
-  Free self-hosted project management with GNU AGPL v3, no seat limit, no paid tier . Released August 2026 with CakePHP 4, PHP 8.2+, PostgreSQL 16 . Projects, tasks, subtasks, list/Kanban/calendar/overview views, custom task statuses, checklists, milestones, time logging, comments, mentions, labels, saved search filters, task reminders, roles/permissions, personal dashboards, file attachments, 2FA, REST API . **Not included**: Scrum/sprints, Gantt charts, resource management, timesheets, budget/cost, invoicing, defect tracking, test cases, document management, wiki, risk management, AI chat, MCP server, SSO .
-
-
-
-- **[Paca](https://github.com/Paca-AI/paca)**  
-
-  AI-native project management platform with MCP server for connecting AI agents directly to workspace data . Available tools: projects, tasks, sprints, documents, members, roles, task types/statuses, views, custom fields, attachments, activity/comments . Claude Code skills for managing workspace via natural-language slash commands . Docker deployment with PostgreSQL, Valkey .
-
-
-
-- **[WorkBase](https://github.com/vocso-com/WorkBase)**  
-
-  Local-first desktop project manager (offline Trello alternative) with unlimited nesting (project → module → task → subtask), weighted progress rollup, four views (Board, Kanban, Outline, Projects home), My Work across all projects, 15 templates, dependencies with blocked-state propagation, full-text search, export to PNG/PDF/Markdown/CSV/JSON . Tauri-based (Rust + Node) for macOS and Windows; local-only storage, no accounts .
-
-
-
-- **[Project Manager (Boisti13)](https://github.com/Boisti13/project-manager)**  
-
-  Self-hosted task manager with FastAPI + React + PostgreSQL . Projects, categories, subtasks, list/board/calendar/timeline (Gantt) views, recurring tasks, estimates, templates, weekly review, calendar feed, @mentions, notifications, archive, share read-only link, REST API . Proxmox LXC one-command install, offline Windows/Linux app .
-
-
-
-- **[Redmine](https://github.com/redmine/redmine)**  
-
-  Classic open-source issue tracking and project management with Gantt charts, calendars, wikis, forums, and role-based access . Mature ecosystem with hundreds of plugins.
-
-
-
-- **[Taiga](https://github.com/kaleidos-ventures/taiga)**  
-
-  Agile project management for Scrum and Kanban teams with backlog management, sprint planning, and kanban boards .
-
-
-
-### Additional Strong Open-Source Options
-
-
-
-- **epicd** — Markdown-native task manager and kanban visualizer for any Git repository, MIT licensed, AI-ready with MCP support for Claude Code, Gemini CLI, Codex .
-
-- **Jotter** — Local-first privacy-focused task management stored as Markdown files, Kanban/list/Eisenhower Matrix views, git sync, Android app, MCP support .
-
-- **AppFlowy** — Open-source Notion alternative with to-do lists, kanban, and databases, AGPL-3.0 licensed .
-
-- **Donetick** — Task and chore management for personal/family use with scheduling, assignment, and group sharing, Go-based .
-
-- **Nullboard** — Single-page minimalist kanban board, BSD-2-Clause licensed, compact and highly readable .
-
-- **Taskwarrior** — Command-line TODO list manager, flexible, fast, and unobtrusive .
-
-- **Vikunja** — Hierarchical task management with smart recurring tasks and Telegram integration .
-
-- **Mimrai** — Lightweight open-source task management (early stage), AGPL-3.0 for non-commercial use .
-
-
-
-**Frameworks for building custom work management solutions**: Combine **OpenProject** for full-featured project management with Gantt, Agile, and wiki integration . Use **Plane** for modern AI-native issue tracking with cycles and modules . Deploy **Focalboard** or **Wekan** for lightweight Trello-style kanban. Choose **Leantime** for accessibility-focused teams or those seeking Trello simplicity with Jira features . Use **Orangescrum Community Edition** for self-hosted teams wanting core PM without proprietary licensing . Integrate **Paca** for AI-agent-driven project management with MCP . Note that true enterprise work management with resource management, portfolio planning, and compliance certifications remains primarily commercial territory; open-source stacks provide strong task, project, and collaboration foundations that require integration for complete enterprise deployment.
-
-
-
-## How to Contribute
-
-
-
-1. Fork the repo.
-
-2. Add/edit entries in `README.md` (follow existing format).
-
-3. Include: name, link, 1–2 sentence description, and whether it's SaaS or open-source.
-
-4. Submit PR with a short explanation.
-
-
-
-Star the repo if you find it useful!
-
-
-
-## Disclaimer
-
-
-
-- This is a **community-curated** list — not exhaustive and not an endorsement.
-
-- Work management tools handle sensitive project and organizational data. Self-hosted solutions require proper security hardening, access controls, and backup procedures.
-
-- Open-source work management platforms vary significantly in maturity. Evaluate gaps in enterprise features (resource management, portfolio planning, SLA tracking, SSO) before deployment. Orangescrum Community Edition explicitly excludes Scrum, Gantt, timesheets, budget, and document management .
-
-- The open-source ecosystem provides strong task, project, and collaboration foundations, but enterprise support, compliance certifications, and managed SLAs remain primarily commercial offerings.
-
-
+<p align="center">
+  <img src="assets/banner.svg" alt="Awesome Work Management Banner" width="100%">
+</p>
+
+# 🚀 Awesome Work Management 📊
+
+<p align="center">
+  <a href="https://github.com/ishandutta2007/Awesome-Awesome-Awesome"><img src="https://img.shields.io/badge/Awesome-%E2%9C%94-blueviolet?style=flat-square&logo=github" alt="Awesome"/></a><a href="https://discord.gg/jc4xtF58Ve"><img src="https://img.shields.io/badge/Discord-5865F2?style=for-the-badge&logo=discord&logoColor=white" alt="Discord" /></a>
+  <a href="https://github.com/ishandutta2007/Awesome-Work-Management/stargazers"><img src="https://img.shields.io/github/stars/ishandutta2007/Awesome-Work-Management?style=social" alt="Stars"/></a>
+  <a href="https://github.com/ishandutta2007/Awesome-Work-Management/network/members"><img src="https://img.shields.io/github/forks/ishandutta2007/Awesome-Work-Management?style=social" alt="Forks"/></a>
+  <a href="https://github.com/ishandutta2007/Awesome-Work-Management/blob/main/LICENSE"><img src="https://img.shields.io/github/license/ishandutta2007/Awesome-Work-Management?color=blue" alt="License"/></a>
+  <a href="https://github.com/ishandutta2007"><img alt="GitHub followers" src="https://img.shields.io/github/followers/ishandutta2007?label=Follow" /></a>
+</p>
+
+> **A curated, SEO-optimized list of top SaaS products and open-source GitHub projects for work management, project planning, task tracking, and team productivity.** 🎯
 
 ---
 
+## 💡 Overview & Key Concepts
 
+Work management platforms enable teams to plan projects, assign tasks, track progress, manage digital resources, and foster cross-departmental collaboration. Whether you are looking for visual Kanban boards, enterprise PMO suites, or privacy-first self-hosted task trackers, this guide categorizes top solution ecosystems.
 
-**Made for project managers, team leads, operations professionals, and organizations seeking work management sovereignty.**  
+---
 
-Let's make work management more open, transparent, and efficient.
+## 📈 Market Size & Industry Dynamics
+
+> 🌐 **Estimated Market Size & Structure:** The global Project & Work Management Software market size is estimated at **~$11.77 Billion in 2026** and projected to expand past **$37 Billion by 2034**. The sector is **moderately fragmented**, undergoing rapid transformation toward AI-driven strategic orchestration. While enterprise tech giants (Microsoft, Atlassian) hold dominant market shares, agile Work OS vendors (Monday.com, Notion, Smartsheet) and open-source platforms retain high growth and strong niche differentiation.
+
+---
+
+## 🏢 SaaS & Hosted Platforms
+
+> Sorted in descending order by company valuation / market capitalization / revenue scale. 💰
+
+| 🛠️ Platform | 🏢 Company Size / Valuation / Revenue | 💳 Starting Paid Tier | 🎁 Free Tier & Trial Limits | 📌 Key Features & Focus |
+| :--- | :--- | :--- | :--- | :--- |
+| **[Microsoft Planner](https://www.microsoft.com/microsoft-365/business/task-management-software)** 💼 | **~$3.0+ Trillion Market Cap** *(Microsoft parent)* | $10.00 / user / mo | Included in M365 Business plans (1 month free trial available) | Kanban boards, deep Outlook & Teams integration, M365 ecosystem task sync |
+| **[Jira Work Management](https://www.atlassian.com/software/jira/work-management)** 🏷️ | **~$30+ Billion Market Cap** *(Atlassian parent, ~$4.5B ARR)* | $7.91 / user / mo | Free up to **10 users** (2 GB storage, community support) | Agile/Scrum backlog tracking, business team workflows, Atlassian suite integration |
+| **[Trello](https://trello.com/)** 🎴 | **~$30+ Billion Market Cap** *(Atlassian subsidiary)* | $5.00 / user / mo | Free for **unlimited users** (max 10 workspace boards, 10MB file attachments) | Minimalist visual Kanban boards, Power-Ups, fast lightweight task organization |
+| **[Notion](https://www.notion.so/)** 📝 | **$11.0 Billion Valuation** (~$865M ARR) | $10.00 / user / mo | Free forever for **individuals** (unlimited blocks, 5MB file upload limit, 10 guests) | All-in-one workspace combining notes, flexible databases, wikis, and Kanban |
+| **[Smartsheet](https://www.smartsheet.com/)** 📊 | **$8.4 Billion Valuation** *(Acquired by Blackstone/Vista)* | $9.00 / user / mo | Free for **1 user** (up to 2 sheets, 500MB storage); 30-day full free trial | Grid/spreadsheet-based work management, Gantt charts, PMO governance & automations |
+| **[Monday.com](https://monday.com/)** 🎨 | **~$4.0+ Billion Market Cap** (~$1.37B TTM Revenue) | $9.00 / seat / mo | Free for **up to 2 seats** (max 3 boards, 200+ templates, 500MB storage) | Visual Work OS with customizable columns, dashboards, automation, and CRM views |
+| **[Asana](https://asana.com/)** 🎯 | **~$2.2+ Billion Market Cap** (~$809M TTM Revenue) | $10.99 / user / mo | Free for **up to 10 users** (unlimited tasks/projects/activity log, 100MB per file) | Goal tracking (OKRs), project timelines, task dependencies, cross-team workflows |
+| **[Airtable](https://airtable.com/)** 🗃️ | **$11.0 Billion Valuation** (~$480M ARR) | $15.00 / user / mo | Free for **unlimited seats** (up to 1,000 records per base, 1GB attachments per base) | Relational database hybrid, custom workflow builder, low-code app creation |
+| **[ClickUp](https://clickup.com/)** ⚡ | **$4.0 Billion Valuation** (~$150M+ ARR) | $7.00 / user / mo | Free forever for **unlimited users & tasks** (100MB storage limit, 100 uses of custom fields) | All-in-one productivity suite combining tasks, docs, whiteboards, chat, and time tracking |
+| **[Wrike](https://www.wrike.com/)** 📁 | **~$1.5+ Billion Valuation** (~$200M ARR) | $10.00 / user / mo | Free for **unlimited users** (2GB storage, basic task management, web/desktop/mobile) | Enterprise work management, proofing, resource allocation, and portfolio reporting |
+
+---
+
+## 🔓 Open-Source GitHub Projects
+
+> Sorted in descending order by GitHub Star counts. ⭐️ Click badges to inspect stargazers! 
+
+| 📦 Project & Link | ⭐️ Star Count | 📜 License | 🛠️ Tech Stack & Key Highlights |
+| :--- | :--- | :--- | :--- |
+| **[Plane](https://github.com/makeplane/plane)** ✈️ | [<img src="https://img.shields.io/github/stars/makeplane/plane?style=social&color=white" alt="Plane Stars"/>](https://github.com/makeplane/plane/stargazers) | AGPL-3.0 | Python/Django, Next.js, Docker. Modern AI-native Jira/Linear alternative with Cycles, Modules, and Pages. |
+| **[AppFlowy](https://github.com/AppFlowy-IO/AppFlowy)** 📱 | [<img src="https://img.shields.io/github/AppFlowy-IO/AppFlowy?style=social&color=white" alt="AppFlowy Stars"/>](https://github.com/AppFlowy-IO/AppFlowy/stargazers) | AGPL-3.0 | Flutter, Rust. Open-source Notion alternative with offline-first data sovereignty and customizable building blocks. |
+| **[Focalboard](https://github.com/mattermost-community/focalboard)** 📋 | [<img src="https://img.shields.io/github/stars/mattermost-community/focalboard?style=social&color=white" alt="Focalboard Stars"/>](https://github.com/mattermost-community/focalboard/stargazers) | MIT / AGPL | Go, TypeScript, React. Self-hosted Trello and Notion alternative maintained by Mattermost community. |
+| **[OpenProject](https://github.com/opf/openproject)** 🏛️ | [<img src="https://img.shields.io/github/stars/opf/openproject?style=social&color=white" alt="OpenProject Stars"/>](https://github.com/opf/openproject/stargazers) | AGPL-3.0 | Ruby on Rails, Angular. Enterprise project management with Gantt charts, Agile boards, cost tracking & XWiki integration. |
+| **[Leantime](https://github.com/Leantime/leantime)** 🎯 | [<img src="https://img.shields.io/github/stars/Leantime/leantime?style=social&color=white" alt="Leantime Stars"/>](https://github.com/Leantime/leantime/stargazers) | AGPL-3.0 | PHP, Vue.js. Accessibility-first project management designed for non-project managers with ADHD/neurodiversity features. |
+| **[Taiga](https://github.com/kaleidos-ventures/taiga-back)** 🦎 | [<img src="https://img.shields.io/github/stars/kaleidos-ventures/taiga-back?style=social&color=white" alt="Taiga Stars"/>](https://github.com/kaleidos-ventures/taiga-back/stargazers) | AGPL-3.0 | Python, AngularJS. Agile project management platform for Scrum and Kanban software development teams. |
+| **[Wekan](https://github.com/wekan/wekan)** 🃏 | [<img src="https://img.shields.io/github/stars/wekan/wekan?style=social&color=white" alt="Wekan Stars"/>](https://github.com/wekan/wekan/stargazers) | MIT | Meteor, Node.js. Open-source Trello clone with swimlanes, drag-and-drop, and multi-language support. |
+| **[Kanboard](https://github.com/kanboard/kanboard)** 📌 | [<img src="https://img.shields.io/github/stars/kanboard/kanboard?style=social&color=white" alt="Kanboard Stars"/>](https://github.com/kanboard/kanboard/stargazers) | MIT | PHP, SQLite/MySQL. Minimalist, lightweight Kanban board focused on simplicity and low resource usage. |
+| **[Taskwarrior](https://github.com/GothenburgBitFactory/taskwarrior)** 💻 | [<img src="https://img.shields.io/github/stars/GothenburgBitFactory/taskwarrior?style=social&color=white" alt="Taskwarrior Stars"/>](https://github.com/GothenburgBitFactory/taskwarrior/stargazers) | MIT | C++. Fast, feature-rich command-line todo and task management tool for terminal power users. |
+| **[Vikunja](https://github.com/go-vikunja/vikunja)** 📝 | [<img src="https://img.shields.io/github/stars/go-vikunja/vikunja?style=social&color=white" alt="Vikunja Stars"/>](https://github.com/go-vikunja/vikunja/stargazers) | AGPL-3.0 | Go, Vue.js. Hierarchical task manager with smart recurring tasks, Gantt view, and Telegram integration. |
+| **[Redmine](https://github.com/redmine/redmine)** 🔴 | [<img src="https://img.shields.io/github/stars/redmine/redmine?style=social&color=white" alt="Redmine Stars"/>](https://github.com/redmine/redmine/stargazers) | GPL-2.0 | Ruby on Rails. Flexible multi-project tracking tool with issue management, wiki, forums, and Gantt charts. |
+| **[Paca](https://github.com/Paca-AI/paca)** 🤖 | [<img src="https://img.shields.io/github/stars/Paca-AI/paca?style=social&color=white" alt="Paca Stars"/>](https://github.com/Paca-AI/paca/stargazers) | AGPL-3.0 | TypeScript, React, Docker. AI-native workspace with Model Context Protocol (MCP) server integration for AI agents. |
+| **[WorkBase](https://github.com/vocso-com/WorkBase)** 🖥️ | [<img src="https://img.shields.io/github/stars/vocso-com/WorkBase?style=social&color=white" alt="WorkBase Stars"/>](https://github.com/vocso-com/WorkBase/stargazers) | MIT | Rust, Tauri, React. Local-first desktop PM software with unlimited task nesting and progress rollups. |
+| **[4ga Boards](https://github.com/RARgames/4gaBoards)** 🎛️ | [<img src="https://img.shields.io/github/stars/RARgames/4gaBoards?style=social&color=white" alt="4ga Boards Stars"/>](https://github.com/RARgames/4gaBoards/stargazers) | MIT | Node.js, Vue. Real-time Kanban board software with dark mode and multitasking utility tools. |
+| **[Orangescrum](https://github.com/Orangescrum/opensource-community-edition)** 🍊 | [<img src="https://img.shields.io/github/stars/Orangescrum/opensource-community-edition?style=social&color=white" alt="Orangescrum Stars"/>](https://github.com/Orangescrum/opensource-community-edition/stargazers) | AGPL-3.0 | PHP 8.2 (CakePHP 4), PostgreSQL. Self-hosted project management with no seat limits or paid tier locks. |
+| **[Project Manager](https://github.com/Boisti13/project-manager)** 📅 | [<img src="https://img.shields.io/github/stars/Boisti13/project-manager?style=social&color=white" alt="Project Manager Stars"/>](https://github.com/Boisti13/project-manager/stargazers) | MIT | FastAPI, React, PostgreSQL. Self-hosted task manager with timeline/Gantt view, recurring tasks, and Proxmox LXC setup. |
+
+---
+
+## 🤝 How to Contribute
+
+Contributions are welcome! Please follow these steps to add new work management tools or update existing entries:
+
+1. 🍴 **Fork** this repository.
+2. 📝 Edit `README.md` to add your tool (maintaining table structure and sorting order).
+3. 🔍 Ensure description includes key features, starting pricing, free tier limits, or repository star badges.
+4. 📬 Submit a **Pull Request** with a concise description of your additions.
+
+---
+
+## 💖 Support & Community
+
+Thank you for visiting and using **Awesome Work Management**! If you find this curated list valuable for your projects or team workflows, please consider supporting the project:
+
+- ⭐️ **Star** this repository to help others discover it on GitHub.
+- 🍴 **Fork** and share it with your network, team, or open-source community.
+- ☕ **Buy me a coffee / Sponsor:** Support ongoing open-source curation and development via [GitHub Sponsors Dashboard](https://github.com/sponsors/ishandutta2007).
+
+---
+
+## ⚖️ Disclaimer
+
+This repository is a community-curated collection intended for educational and informational purposes. Product logos, trademarks, and brand names belong to their respective owners. Self-hosted software deployments should be hardened according to security best practices.
+
+---
+
+## 📊 Star History
+
+[![Star History Chart](https://star-history.dera.page/svg?repos=ishandutta2007/Awesome-Work-Management&type=date&legend=top-left)](https://star-history.dera.page/#ishandutta2007/Awesome-Work-Management&type=date&legend=top-left)
+
+---
+
+<p align="center">
+  <b>Made with ❤️ for project managers, team leads, developers, and productivity enthusiasts.</b>
+</p>
