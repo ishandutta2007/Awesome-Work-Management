@@ -49,9 +49,9 @@ Work management platforms enable teams to plan projects, assign tasks, track pro
 
 ## 🔓 Open-Source GitHub Projects
 
-> Sorted in descending order by GitHub Star counts. ⭐️ Click badges to inspect stargazers! 
+> Sorted in descending order by GitHub Stars_Counts. ⭐️ Click badges to inspect stargazers! 
 
-| 📦 Project & Link | ⭐️ Star Count | 📜 License | 🛠️ Tech Stack & Key Highlights |
+| 📦 Project & Link | ⭐️ Stars_Count | 📜 License | 🛠️ Tech Stack & Key Highlights |
 | :--- | :--- | :--- | :--- |
 | **[Plane](https://github.com/makeplane/plane)** ✈️ | [<img src="https://img.shields.io/github/stars/makeplane/plane?style=social&color=white" alt="Plane Stars"/>](https://github.com/makeplane/plane/stargazers) | AGPL-3.0 | Python/Django, Next.js, Docker. Modern AI-native Jira/Linear alternative with Cycles, Modules, and Pages. |
 | **[AppFlowy](https://github.com/AppFlowy-IO/AppFlowy)** 📱 | [<img src="https://img.shields.io/github/AppFlowy-IO/AppFlowy?style=social&color=white" alt="AppFlowy Stars"/>](https://github.com/AppFlowy-IO/AppFlowy/stargazers) | AGPL-3.0 | Flutter, Rust. Open-source Notion alternative with offline-first data sovereignty and customizable building blocks. |
@@ -78,7 +78,7 @@ Contributions are welcome! Please follow these steps to add new work management 
 
 1. 🍴 **Fork** this repository.
 2. 📝 Edit `README.md` to add your tool (maintaining table structure and sorting order).
-3. 🔍 Ensure description includes key features, starting pricing, free tier limits, or repository star badges.
+3. 🔍 Ensure description includes key features, starting pricing, free tier limits, or repository Stars_Badges.
 4. 📬 Submit a **Pull Request** with a concise description of your additions.
 
 ---
